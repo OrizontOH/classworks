@@ -1,0 +1,9 @@
+div{
+    background-color: LightCoral;
+}
+.selection_by_class{
+    background-color: LightSkyBlue;
+}
+#selection_by_id{
+    background-color: LightGreen;
+}
