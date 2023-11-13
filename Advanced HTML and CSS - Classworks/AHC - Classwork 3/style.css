@@ -1,0 +1,63 @@
+p{
+    font-size: 100px;
+    text-align: center;
+}
+
+.link{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+}
+/* Pseudo classes: */
+    /* 1 */
+    p:hover{
+        color: green;
+        font-weight: bold;
+    }
+
+    /* 1 */
+    .link:hover {
+        color: #FF00FF;
+    }
+
+    /* 2*/
+    a:visited {
+    color: #00FF00;
+    }
+
+    /* 3 */
+    .link:link {
+        color: #FF0000;
+    }
+    
+    /* 4 */
+    .link:active {
+        color: #0000FF;
+    }
+
+/* Pseudo elements: */
+    /* 1 */
+    p::before{
+        content: 'AHC - ';
+        color: Maroon;
+        font-weight: bold;
+    }
+
+    /* 2 */
+    p::after{
+        content: ' 3';
+        color: AquaMarine;
+        font-weight: bold;
+    }
+
+    /* 3 */
+    p::selection{
+        background-color: LightCoral;
+        color: white;
+    }
+    
+    /* 4 */
+    p::first-line {
+        font-variant: small-caps;
+      }
