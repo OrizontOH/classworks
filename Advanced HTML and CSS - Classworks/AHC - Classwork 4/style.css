@@ -1,0 +1,35 @@
+h3{
+    background-color: LightCoral;
+    text-align: center;
+}
+
+/* Visibility: */
+    .visible{
+        visibility: visible;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+/* Opacity: */
+    .op_1{
+        opacity: 1;
+    }
+    .op_05{
+        opacity: 0.5;
+    }
+    .op_02{
+        opacity: 0.2;
+    }
+/* Display: */
+    .none{
+        display: none;
+        font-weight: bold;
+    }
+    .inline{
+        display: inline;
+        font-weight: bold;
+    }
+    .block{
+        display: block;
+        font-weight: bold;
+    }
