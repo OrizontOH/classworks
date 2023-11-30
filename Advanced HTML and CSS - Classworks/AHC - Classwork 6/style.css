@@ -1,3 +1,17 @@
 *{
     background-color: #202c3c;
 }
+
+@keyframes increaseSize {
+    from{
+        height: 13rem;
+    }
+    to{
+        height: 18rem;
+    }
+}
+
+.increase{
+    animation-name: increaseSize;
+    animation-duration: 3s;
+}
