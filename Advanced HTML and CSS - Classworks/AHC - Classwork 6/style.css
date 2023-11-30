@@ -11,7 +11,7 @@
     }
 }
 
-.increase{
+.increase:hover{
     animation-name: increaseSize;
     animation-duration: 3s;
 }
